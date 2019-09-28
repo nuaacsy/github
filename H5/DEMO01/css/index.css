@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.menu {
+    float: left;
+    height: 100%;
+    width: 350px;
+    background: #222c3c;
+}
+
+.primary {
+    float: left;
+    width: 100px;
+    height: 100%;
+    background: #1d2531;
+}
+
+.primary .classify {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.primary .classify li {
+    margin-bottom: 20px;
+    height: 60px;
+    width: 60px;
+}
+
+li .highlight {
+    position: relative;
+    top: -45px;
+    left: -20px;
+}
+
+.primary .buttonactions {
+    position: absolute;
+    padding: 20px;
+    bottom: 0;
+}
+
+.primary .buttonactions li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.secondary {
+    float: left;
+    position: relative;
+    width: 250px;
+    height: 100%;
+}
+
+.part {
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
+.secondary .part dd {
+    font-size: 11px;
+    margin-bottom: 12px;
+    color: #5b6779;
+    font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.secondary .part dt {
+    float: left;
+    position: relative;
+    width: 200px;
+    font-size: 11px;
+    margin-bottom: 12px;
+    color: #6f7987;
+    font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.part .divider {
+    padding-bottom: 12px;
+}
+
+.secondary .part dt .seticon {
+    float: right;
+}
+
+.Servercapacity {
+    position: absolute;
+    padding-left: 30px;
+    bottom: 0;
+    height: 40px;
+    width:400px;
+    color: #6f7987;
+    font-size: 11px;
+    font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+
+.Servercapacity .month .value {
+    margin-left: 50px;
+}
+
+.Servercapacity .inner .base {
+    position: absolute;
+    padding-top: 10px;
+}
+
+.Servercapacity .inner .fill {
+    position: absolute;
+    padding-top: 10px;
+}
+
+.chat {
+    height: 100%;
+    background: #ffffff;
+    width: 100%-350px;
+}
